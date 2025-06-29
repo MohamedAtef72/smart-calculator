@@ -36,6 +36,13 @@ function updateDisplay(value = displayValue) {
   displayEl.textContent = value;
 }
 
+
+let currentValue = "";
+let displayValue = "0";
+let shouldResetDisplay = false;
+
+const displayEl = document.getElementById("display");
+
 // Add to Display
 function addToDisplay(input) {
   if (shouldResetDisplay) {
