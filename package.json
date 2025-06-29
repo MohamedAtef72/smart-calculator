@@ -1,4 +1,10 @@
 {
+  "name": "smart-calculator",
+  "version": "1.0.0",
+  "description": "A smart calculator with dark mode using Tailwind CSS and JavaScript",
+  "scripts": {
+    "build": "npx tailwindcss -i ./docs/input.css -o ./docs/output.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.4.0"
   }
